@@ -1,0 +1,7 @@
+enum Position {
+	PointGuard
+	ShootingGuard
+	SmallForward
+	PowerForward
+	Center
+}

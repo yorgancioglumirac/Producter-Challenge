@@ -1,0 +1,11 @@
+input PlayerDto {
+	name: String!
+	surname: String!
+	position: Position!
+}
+
+
+type Mutation {
+	addPlayer(player: PlayerDto): Player
+	deletePlayer(id: Long): Long
+}
